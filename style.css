@@ -1,0 +1,137 @@
+body{
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+  margin: 0 auto;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+header h1{
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+header p{
+  margin: 0 auto;
+  padding: 0.5rem 0 1rem 0;
+  width: 42%;
+}
+
+.top-card {
+  margin: 2rem auto;
+  text-align: center;
+  width: 42%;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.top-card:hover {
+  transform: translateY(-5px);
+}
+
+.top-card .feedback {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-style: italic;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.top-card .feedback::before {
+  content: '"';
+  font-size: 4rem;
+  color: #e9ecef;
+  position: absolute;
+  top: -1.1rem;
+  left: 1rem;
+  font-family: Georgia, serif;
+}
+
+.top-card .content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.top-card .content img {
+  margin: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-card .content .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
+
+.top-card .content h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.top-card .content p {
+  margin: 0.3rem 0 0 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.right-card{
+  margin: 2rem auto; 
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 42%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 2rem;
+  transition: transform 0.3s ease;
+  gap: 2rem;
+}
+
+.right-card:hover{
+  transform: translateY(-5px);
+}
+.right-card .content img{
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.right-card .content h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.right-card .content p {
+  margin: 0.3rem 0 0 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.right-card .feedback {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 1rem; 
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
